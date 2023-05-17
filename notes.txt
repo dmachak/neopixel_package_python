@@ -1,0 +1,7 @@
+NeoPixel Strip interface:
+n: length of strip (read only)
+[]: array of values of type *color*
+fill(*color*): updates all pixels to the given color.
+show(): updates the actual pixels
+
+

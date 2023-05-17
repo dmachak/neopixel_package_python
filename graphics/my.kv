@@ -1,0 +1,14 @@
+<RootClass>
+    field: field_id
+    BoxLayout:
+        size: root.size
+        orientation: "vertical"
+        Field:
+            id: field_id
+            size_hint: 1, 0.9
+
+        Button:
+            size_hint: 1, 0.1
+            text: "Move"
+            on_press:
+                root.field.move_circle()

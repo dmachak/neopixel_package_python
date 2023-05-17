@@ -70,8 +70,6 @@ class StepColorFunction(ColorFunction):
     def getColor(self, position, time):
         return self.colorPalette.getColor(1)
 
-#class Decay
-
 class PulsePattern:
     FLAG1 = 1
     FLAG2 = 2
